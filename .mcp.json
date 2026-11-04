@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "duckdb": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--with",
+        "duckdb==2.0.0",
+        "mcp-server-motherduck",
+        "--db-path",
+        "olist.duckdb",
+        "--read-only"
+      ],
+      "env": {}
+    }
+  }
+}
